@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #7983ff */
+/* #fdbfcc */
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  @apply bg-[#121212] font-medium text-xl sm:text-2xl text-green-500;
+}
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.heading {
+  @apply tracking-tighter font-bold;
+}
+
+.scanner {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
